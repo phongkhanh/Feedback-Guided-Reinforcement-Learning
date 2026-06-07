@@ -48,6 +48,10 @@ training_internvl/
 *.bmp
 *.tiff
 *.svg
+
+# Exception: keep assets folder for README images
+!assets/
+!assets/**
 vis_output/
 traj_vis/
 traj_analysis_vis/
