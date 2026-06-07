@@ -1,0 +1,9 @@
+{
+    "TrajFeedback": {
+      "root": "../fail_analysis",
+      "annotation": "../fail_analysis/train_trajectory_feedback.jsonl",
+      "data_augment": false,
+      "repeat_time": 1,
+      "length": 7279
+    }
+}

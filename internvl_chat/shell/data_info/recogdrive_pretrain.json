@@ -1,0 +1,9 @@
+{
+    "Navsim": {
+      "root": "data/train",
+      "annotation": "data/train/annotations_question/annotation_instruction_only_real.jsonl",
+      "data_augment": false,
+      "repeat_time": 2,
+      "length": 3160
+    }
+}

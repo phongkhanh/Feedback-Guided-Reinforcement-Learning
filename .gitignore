@@ -1,0 +1,86 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+navsim.egg-info/
+
+# ============================================================
+# Model checkpoints & weights  (rất nặng)
+# ============================================================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# ============================================================
+# Large directories - pretrained & trained models
+# ============================================================
+pretrained/
+internvl_chat/2B_freeze_lora_only/
+internvl_chat/8B_freeze/
+internvl_chat/8B_freeze_lora_only/
+internvl_chat/work_dirs/
+
+# ============================================================
+# Data directories
+# ============================================================
+internvl_chat/data/
+internvl_chat/navsim_workspace/
+navsim_workspace/
+training_internvl/
+
+# ============================================================
+# Images & visualization output
+# ============================================================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+vis_output/
+traj_vis/
+traj_analysis_vis/
+fail_analysis/
+fail_analysis_backup/
+scripts/traj_plot_vis_*/
+scripts/fail_analysis/
+navsim/planning/script/vis_comparison/
+navsim/planning/script/vis_model_our/
+navsim/planning/script/vis_model_correct_baseline_wrong/
+navsim/planning/script/report_samples/
+
+# ============================================================
+# Dataset & log files
+# ============================================================
+*.csv
+*.jsonl
+*.txt
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+# ============================================================
+# Misc temp / scratch
+# ============================================================
+issues.json
+scripts/=0.5
+a.py
+a.sh
+c.py
+d.py
